@@ -10,7 +10,7 @@ app.use(cors());
 
 const mailgun = new Mailgun(formData);
 const client = mailgun.client({
-  username: "Nono",
+  username: "Corentin Gerard",
   key: process.env.MAILGUN_API_KEY,
 });
 
